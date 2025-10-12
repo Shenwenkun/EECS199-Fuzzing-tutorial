@@ -1,0 +1,124 @@
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000000,sig:11,src:000000,time:5758,execs:5147,op:flip32,pos:1084 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:383
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:383
+#1  0x00005555555809dd in exif_data_load_data_content ()
+#2  0x000055555557eeb0 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555809dd in exif_data_load_data_content ()
+378	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000001,sig:11,src:000000,time:12881,execs:10770,op:arith32,pos:34,val:-9 ===
+[Inferior 1 (process 1440907) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000002,sig:11,src:000002,time:98959,execs:73948,op:flip32,pos:707 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000003,sig:11,src:000002,time:98960,execs:73950,op:flip32,pos:719 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000004,sig:11,src:000002,time:106515,execs:79945,op:havoc,rep:3 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:436
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:436
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+431	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000005,sig:11,src:000002,time:122871,execs:92337,op:havoc,rep:8 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:238
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:238
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+233	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000006,sig:11,src:000002,time:131726,execs:99056,op:havoc,rep:3 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555904b7 in exif_mnote_data_canon_load ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000007,sig:11,src:000002,time:166648,execs:125606,op:havoc,rep:8 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555809dd in exif_data_load_data_content ()
+#2  0x000055555557eeb0 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555809dd in exif_data_load_data_content ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000008,sig:11,src:000007,time:233066,execs:185299,op:inf,rep:3 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555809dd in exif_data_load_data_content ()
+#2  0x000055555557eeb0 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555809dd in exif_data_load_data_content ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000009,sig:11,src:000042,time:251751,execs:200447,op:havoc,rep:4 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555954e0 in exif_mnote_data_olympus_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555954e0 in exif_mnote_data_olympus_load ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000010,sig:11,src:000042,time:254528,execs:202338,op:havoc,rep:3 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555954e0 in exif_mnote_data_olympus_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555954e0 in exif_mnote_data_olympus_load ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000011,sig:11,src:000085,time:278517,execs:219082,op:havoc,rep:7 ===
+
+Program received signal SIGSEGV, Segmentation fault.
+__memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:440
+#1  0x00005555555954e0 in exif_mnote_data_olympus_load ()
+#2  0x000055555557fb13 in exif_data_load_data ()
+#3  0x0000555555574340 in main ()
+#1  0x00005555555954e0 in exif_mnote_data_olympus_load ()
+435	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+

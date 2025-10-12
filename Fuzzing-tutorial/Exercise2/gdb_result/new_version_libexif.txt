@@ -1,0 +1,36 @@
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000000,sig:11,src:000000,time:5758,execs:5147,op:flip32,pos:1084 ===
+[Inferior 1 (process 1441186) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000001,sig:11,src:000000,time:12881,execs:10770,op:arith32,pos:34,val:-9 ===
+[Inferior 1 (process 1441192) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000002,sig:11,src:000002,time:98959,execs:73948,op:flip32,pos:707 ===
+[Inferior 1 (process 1441198) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000003,sig:11,src:000002,time:98960,execs:73950,op:flip32,pos:719 ===
+[Inferior 1 (process 1441204) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000004,sig:11,src:000002,time:106515,execs:79945,op:havoc,rep:3 ===
+[Inferior 1 (process 1441222) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000005,sig:11,src:000002,time:122871,execs:92337,op:havoc,rep:8 ===
+[Inferior 1 (process 1441228) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000006,sig:11,src:000002,time:131726,execs:99056,op:havoc,rep:3 ===
+[Inferior 1 (process 1441234) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000007,sig:11,src:000002,time:166648,execs:125606,op:havoc,rep:8 ===
+[Inferior 1 (process 1441240) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000008,sig:11,src:000007,time:233066,execs:185299,op:inf,rep:3 ===
+[Inferior 1 (process 1441255) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000009,sig:11,src:000042,time:251751,execs:200447,op:havoc,rep:4 ===
+[Inferior 1 (process 1441261) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000010,sig:11,src:000042,time:254528,execs:202338,op:havoc,rep:3 ===
+[Inferior 1 (process 1441267) exited with code 01]
+
+=== Analyzing: /root/fuzzing_libexif/out/default/crashes/id:000011,sig:11,src:000085,time:278517,execs:219082,op:havoc,rep:7 ===
+[Inferior 1 (process 1441273) exited with code 01]
+
