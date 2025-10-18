@@ -22,6 +22,8 @@
 ![alt text](fuzzing_result.png)
 3. Upon inspection, identified that `bittok2str_internal()` used a statically allocated buffer (`static char buf[256]`) to construct formatted flag strings.
 
+![alt text](crash.png)
+
 <details>
 <summary>bittok2str_internal function</summary>
 
