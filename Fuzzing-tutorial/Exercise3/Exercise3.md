@@ -19,7 +19,9 @@
 
 1. Performed fuzzing on TCPdump using AFL++ targeting the BOOTP protocol parsing path.
 2. Collected 6 unique crashing inputs, all triggering faults in the `bittok2str_internal()` function located in `util-print.c`.
+
 ![alt text](fuzzing_result.png)
+
 3. Upon inspection, identified that `bittok2str_internal()` used a statically allocated buffer (`static char buf[256]`) to construct formatted flag strings.
 
 ![alt text](crash.png)
