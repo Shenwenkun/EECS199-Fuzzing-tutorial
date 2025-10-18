@@ -71,6 +71,7 @@ bittok2str_internal(register const struct tok *lp, register const char *fmt,
 </details>
 
 4. The function used `snprintf()` to append strings, but lacked bounds checking. When the accumulated `buflen` exceeded 256 bytes, subsequent writes caused out-of-bounds memory access, triggering `global-buffer-overflow` errors under AddressSanitizer.
+
 ![alt text](snprintf.png)
 
 ---
